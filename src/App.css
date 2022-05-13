@@ -1,0 +1,6 @@
+.ic-blog{
+    min-height: 97px !important;
+}
+.dropdown-toggle:after{
+    display: none !important;
+}

@@ -1,0 +1,99 @@
+/* ----------------------------------- blog-setting -------------------------------------- */
+.blog-tag{
+    @media (max-width: 600px) {
+        display: none !important;
+    }
+}
+.content-page{
+    min-height: 480px;
+}
+.left-bar{
+    @media (max-width: 600px) {
+        display: none !important;
+    }
+    .MuiDrawer-paper {
+        position: relative !important;
+        background-color: #e5f4ff !important;
+    }
+    .css-h4y409-MuiList-root{
+        padding-top: 0px !important;
+    }
+    .let{
+        padding-left: 1.5rem !important;
+        font-weight: 100 !important
+    }
+}
+.header_banner_wrapper {
+    background-color: #00387c;
+    padding: 0 40px;
+    // background-image: url(https://ic-dev.lightersideofrealestate.com/wp-content/themes/innercircle/img/common/blue-house-dashboard.jpg);
+    background-position: 50% 16%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url("https://ic-dev.lightersideofrealestate.com/wp-content/themes/innercircle/img/common/blue-house-dashboard.jpg");
+h1{
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 48px;
+    color: #fff;
+    // float: left !important;
+}  
+}
+.header_banner_innrwrapper {
+    padding: 40px 0;
+}
+.view_article_content.mobile_view {
+    display: none;
+}
+.view_article_content {
+    margin-bottom: 30px;
+    position: relative;
+    display: block;
+    cursor: pointer;
+    
+.view_article_btn {
+        padding: 14px 30px;
+        line-height: 22px;
+        border-bottom: none;
+        letter-spacing: -.2px;
+        color: #333!important;
+        user-select: none;
+        border: none!important;
+        min-width: 228px;
+    }
+}
+
+#bottom-bar {
+    font-size: 12px;
+    line-height: 20px;
+    color: #f4f4f4;
+    position: relative;
+    z-index: 9;
+    margin: 0 auto;
+    .wf-wrap {
+        margin: 0 auto;
+        padding: 0 20px 0 20px;
+    }    
+    .wf-container-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+    #branding-bottom {
+        padding: 8px 20px 7px 0px;
+        line-height: 0;
+        font-size: 0;
+    }
+    #bottom-bar {
+        font-size: 12px;
+        line-height: 20px;
+        color: #f4f4f4;
+        .wf-float-left {
+            margin-right: 10px;
+            float: left;
+        }
+    }
+}
